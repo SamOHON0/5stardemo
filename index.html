@@ -342,6 +342,20 @@
   .areas-wrap a:hover{background:var(--p1);color:#fff;border-color:var(--p1)}
   .areas-note{text-align:center;color:var(--ink-soft);font-weight:600;font-size:15px;margin-top:22px}
   @media(max-width:760px){.strip-row select,.strip-row input,form input,form textarea,form select{font-size:16px}.areas-wrap a{font-size:13px;padding:7px 11px}}
+
+  /* MOBILE TOP */
+  @media(max-width:600px){
+    .topbar .wrap{justify-content:center;text-align:center}
+    .topbar .tb-l{display:none}
+    .topbar{font-size:14px}
+    .nav .wrap{height:62px;gap:10px}
+    .brand{font-size:16.5px;gap:8px}
+    .brand .mark{width:34px;height:34px;border-radius:10px}
+    .nav-cta{font-size:13.5px;padding:9px 13px}
+    .burger{width:42px;height:42px;flex:none}
+    .hero h1{font-size:clamp(30px,9vw,40px)}
+    .hero-grid{padding-top:22px}
+  }
 </style>
 </head>
 <body>
@@ -349,7 +363,7 @@
 <!-- TOP BAR -->
 <div class="topbar">
   <div class="wrap">
-    <div>🎉 Fully insured, PIPA-tested bouncy castle &amp; obstacle course hire across Cork</div>
+    <div class="tb-l">🎉 Fully insured, PIPA-tested bouncy castle &amp; obstacle course hire across Cork</div>
     <div class="tb-r">
       <a href="tel:0851315822">Call us: 085 131 5822</a>
     </div>
